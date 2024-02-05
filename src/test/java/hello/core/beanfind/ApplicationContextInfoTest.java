@@ -28,7 +28,6 @@ public class ApplicationContextInfoTest {
             if(beanDefinition.getRole()==BeanDefinition.ROLE_APPLICATION){
                 Object bean = ac.getBean(beanDefinitionName);
                 System.out.println("name = " + beanDefinitionName+" object=" + bean);
-
             }
         }
     }
